@@ -1,0 +1,81 @@
+﻿<!doctype html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link href="~/Content/Go/css/estilos.css" rel="stylesheet" />
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <Link rel="icon" type="image/x-icon" href="imagen/favicon.ico">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>CEMEX GO | No Limits</title>
+</head>
+
+<body>
+    <input type="checkbox" checked id="check">
+    <header>
+        <nav class="navbar navbar-expand-lg color fixed-top">
+            <div class="d-flex flex-grow-1">
+                <span class="w-100 d-lg-none d-block">
+                    <!-- hidden spacer to center brand on mobile -->
+                </span>
+                <a class="navbar-brand" href="NoLimit">
+                    <img src="~/Content/Go/imagen/cemexblanco.png" class="cemexBlanco" alt="CEMEX">
+                </a>
+            </div>
+            <div class="collapse navbar-collapse flex-grow-1 text-right">
+                <ul class="navbar-nav ml-auto flex-nowrap">
+                    <li class="nav-item">
+                        <span class="nav-link texto margenes">Shere my feedback</span>
+                    </li>
+                    <li class="nav-item">
+                        <img src="~/Content/Go/imagen/wafle4.png" class="wafle margenes" width="45" alt="MENU">
+                    </li>
+                    <li class="nav-item">
+                        <img src="~/Content/Go/imagen/JA.png" width="45" class="margenes" alt="USUARIO">
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="sidebar fixed-top">
+        <label for="check"><span class="valor" id="sidebar_btn"><i class="fas fa-angle-double-right"></i></span></label>
+        <a href="#"><i class="fas fa-exclamation-circle"></i> <span>Customer Information</span></a>
+        <a href="#"><i class="far fa-edit"></i> <span>Commercial Conditions</span></a>
+        <a href="#"><i class="fas fa-check-square"></i> <span>Order and Product</span></a>
+        <a href="#"><i class="fas fa-search"></i> <span>Search</span></a>
+        <a href="#"><i class="fas fa-money-bill"></i> <span>Bill</span></a>
+        <a href="#"><i class="fas fa-users"></i> <span>Users</span></a>
+        <a href="#"><i class="fas fa-archive"></i> <span>Archive</span></a>
+        <a href="Build"><i class="fas fa-home"></i> <span>Build</span></a>
+    </div>
+    @RenderBody()
+    <footer class="navbar-expand-lg color2 content5 fixed-bottom">
+        <div class="d-flex flex-grow-1 ">
+            <span class="nav-link texto2 col ">
+                Copyright © 2020 / First Publication CEMEX Innovation Holding Ltd.,
+                Switzerland, All Rights Reserved
+            </span>
+            <span class="nav-link texto2 col-md-auto">Legal</span>
+            <span class="nav-link texto2 col-md-auto">Privacy</span>
+            <span class="nav-link texto2 col col-lg-2">cemex.com</span>
+        </div>
+    </footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+            crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous"></script>
+</body>
+
+</html>
