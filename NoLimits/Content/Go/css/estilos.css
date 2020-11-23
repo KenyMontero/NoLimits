@@ -1,48 +1,53 @@
-body{
+body {
     margin: 0;
     padding: 0;
     font-family: "Roboto",sans-serif;
 }
 
-.color{
+.color {
     background: #003976;
     margin: 0px;
     height: 55px;
-    border-bottom: 3px solid #f44336!important;
+    border-bottom: 3px solid #f44336 !important;
 }
-.color2{
+
+.color2 {
     background: #003976;
 }
-.Area_Izquierda img{
+
+.Area_Izquierda img {
     margin: 0;
     padding: 0;
 }
-.cemexBlanco{
+
+.cemexBlanco {
     width: 100px;
 }
-.texto{
+
+.texto {
     text-decoration: none;
     color: #809CAF;
     margin-right: 27px;
     font-weight: 400;
 }
-.texto2{
+
+.texto2 {
     text-decoration: none;
     color: rgb(255, 255, 255);
     margin-right: -7px;
     font-weight: 400;
 }
 
-.wafle{
+.wafle {
     border-left: #254A72 2px solid;
     border-right: #254A72 2px solid;
 }
 
-.margenes{
+.margenes {
     margin-left: 7px;
 }
 
-.sidebar{
+.sidebar {
     background: #003976;
     margin-top: 51px;
     padding-top: -2px;
@@ -53,26 +58,28 @@ body{
     transition: 0.5s;
     transition-property: left;
 }
-.sidebar a{
-    color: #fff;
-    display: block;
-    width: 100%;
-    line-height: 60px;
-    text-decoration: none;
-    padding-left: 40px;
-    box-sizing: border-box;
-    transition: 0.5s;
-    transition-property: background;
-}
 
-.sidebar a:hover{
-    background: #254A72;
-}
-.sidebar i{
-    padding-right: 10px;
-}
+    .sidebar a {
+        color: #fff;
+        display: block;
+        width: 100%;
+        line-height: 60px;
+        text-decoration: none;
+        padding-left: 40px;
+        box-sizing: border-box;
+        transition: 0.5s;
+        transition-property: background;
+    }
 
-label #idebar_btn{
+        .sidebar a:hover {
+            background: #254A72;
+        }
+
+    .sidebar i {
+        padding-right: 10px;
+    }
+
+label #idebar_btn {
     z-index: 1;
     position: fixed;
     cursor: pointer;
@@ -81,68 +88,69 @@ label #idebar_btn{
     transition-property: color;
 }
 
-#check:checked ~ .sidebar{
+#check:checked ~ .sidebar {
     left: -190px;
 }
 
-#check:checked ~ .sidebar a span{
-    display: none;
-}
+    #check:checked ~ .sidebar a span {
+        display: none;
+    }
 
-#check:checked ~ .sidebar a{
-    font-size: 20px;
-    margin-left: 170px;
-    width: 80px;
-}
+    #check:checked ~ .sidebar a {
+        font-size: 20px;
+        margin-left: 170px;
+        width: 80px;
+    }
 
-.valor{
+.valor {
     padding-left: 220px;
     font-weight: 800;
     color: #889db3;
 }
 
-#check{
+#check {
     display: none;
 }
-.content{
+
+.content {
     background-color: #dce0e6;
     overflow: hidden;
 }
-.content2{
+
+.content2 {
     margin-top: 35px;
     margin-right: 0px;
     background-color: #00205C;
-
 }
-.content3{
+
+.content3 {
     margin-top: 55px;
     margin-right: 0px;
 }
 
-.content4{
+.content4 {
     margin-top: 40px;
     margin-bottom: 100px;
     margin-left: 20px;
     margin-right: 0px;
 }
 
-#check:checked ~ .content{
-    margin-left: 60px;
-}
-#check:checked ~ .content5{
+#check:checked ~ .content {
     margin-left: 60px;
 }
 
-.content5{
+#check:checked ~ .content5 {
+    margin-left: 60px;
+}
+
+.content5 {
     margin-left: 250px;
     background-color: #003976;
-
-
     height: -1vh;
     transition: 0.5s;
 }
 
-.pie{
+.pie {
     padding-top: 0px;
     background: #003976;
 }
@@ -158,8 +166,9 @@ label #idebar_btn{
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
-  }
-.icono{
+}
+
+.icono {
     background-color: #00205C;
     border-radius: 16px;
     border-top-right-radius: 1px;
@@ -170,12 +179,12 @@ label #idebar_btn{
     margin-top: 15px;
 }
 
-.alinear{
+.alinear {
     margin-top: 37px;
     margin-left: 30px;
 }
 
-.cuadro{
+.cuadro {
     width: 355px;
     height: 150px;
     background-color: white;
@@ -183,25 +192,27 @@ label #idebar_btn{
     margin-bottom: 7%;
 }
 
-.etiqueta{
+.etiqueta {
     margin-top: 52px;
     padding: 0px;
     margin-left: 35px;
 }
- .buildFormulario{
+
+.buildFormulario {
     background-color: white;
     padding: 0px;
- }
- form{
-     padding-top: 18px;
- }
+}
 
- label{
+form {
+    padding-top: 18px;
+}
+
+label {
     color: #00205C;
     font-weight: 700;
- }
+}
 
- .button2 {
+.button2 {
     background-color: #00205C;
     border: none;
     color: white;
@@ -212,9 +223,9 @@ label #idebar_btn{
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
-  }
+}
 
-.cuadro2{
+.cuadro2 {
     width: 314px;
     height: 260px;
     background-color: white;
@@ -227,7 +238,7 @@ label #idebar_btn{
     padding: 0px;
 }
 
-.cuadro3{
+.cuadro3 {
     width: 848px;
     height: 762px;
     background-color: white;
@@ -235,7 +246,7 @@ label #idebar_btn{
     margin-bottom: 7%;
 }
 
-.cuadro4{
+.cuadro4 {
     width: 848px;
     height: 1090px;
     background-color: white;
@@ -243,26 +254,98 @@ label #idebar_btn{
     margin-bottom: 7%;
 }
 
-.contenedor{
+.contenedor {
     background-color: #fff;
     margin-left: 15px;
     margin-right: 15px;
     padding-top: 19px;
 }
-.Mcemento{
+
+.Mcemento {
     width: 200px;
     background-color: #fff;
-    border: 2px solid #00205C!important;
+    border: 2px solid #00205C !important;
     color: #00205C;
     font-weight: 700;
 }
 
-.Mcemento2{
+.Mcemento2 {
     width: 200px;
     background-color: #00205C;
-    border: 2px solid #fff!important;
+    border: 2px solid #fff !important;
     color: #fff;
     font-weight: 700;
 }
+
 a {
-    text-decoration: none!important;
+    text-decoration: none !important;
+}
+
+.chat_icon {
+    position: fixed;
+    margin-bottom: 30px;
+    right: 30px;
+    bottom: 0;
+    font-size: 80px;
+    color: #fff;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+.chat_box {
+    position: fixed;
+    right: 20px;
+    bottom: 100px;
+    width: 400px;
+    height: 80vh;
+    background: #fff;
+    z-index: 1000;
+    transition: all 0.3s ease-out;
+    transform: scaleY(0);
+    border-color: #00205C !important;
+}
+
+    .chat_box.active {
+        transform: scaleY(1);
+    }
+
+.hidden {
+    display: none !important;
+}
+
+.conv-form-wrapper textarea {
+}
+
+#messages {
+    padding: 20px;
+}
+
+
+.checkbox-lg .custom-control-label::before,
+.checkbox-lg .custom-control-label::after {
+    top: .8rem;
+    width: 1.55rem;
+    height: 1.55rem;
+}
+
+.checkbox-lg .custom-control-label {
+    padding-top: 13px;
+    padding-left: 6px;
+}
+
+
+.checkbox-xl .custom-control-label::before,
+.checkbox-xl .custom-control-label::after {
+    top: 1.2rem;
+    width: 1.85rem;
+    height: 1.85rem;
+}
+
+.checkbox-xl .custom-control-label {
+    padding-top: 23px;
+    padding-left: 10px;
+}
+
+/*#pai div {
+    display:none;
+}*/

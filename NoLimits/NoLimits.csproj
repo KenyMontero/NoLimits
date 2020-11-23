@@ -92,6 +92,7 @@
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+<<<<<<< HEAD
     <Content Include="Content\example\css\bootstrap.css" />
     <Content Include="Content\example\css\example.css" />
     <Content Include="Content\example\fonts\glyphicons-halflings-regular.svg" />
@@ -195,6 +196,9 @@
     <Content Include="Content\example\rooms\thumbnails\thumbnail_light_fine_wood.jpg" />
     <Content Include="Content\example\rooms\thumbnails\thumbnail_marbletiles.jpg" />
     <Content Include="Content\example\rooms\thumbnails\thumbnail_wallmap_yellow.png" />
+=======
+    <Content Include="Content\Go\bootstrap-steps.min.css" />
+>>>>>>> d65be419d37e5ec61f380338bab598fc066b0e9e
     <Content Include="Content\Go\css\estilos.css" />
     <Content Include="Content\Go\imagen\11-115098_grid-icon-colorfulness-hd-png-download.png" />
     <Content Include="Content\Go\imagen\cementoAmarillo.png" />
@@ -226,6 +230,9 @@
     <Content Include="Content\Go\imagen\wafle2.png" />
     <Content Include="Content\Go\imagen\wafle3.png" />
     <Content Include="Content\Go\imagen\wafle4.png" />
+    <Content Include="Content\Go\jquery.convform.css" />
+    <Content Include="Content\Go\jquery.convform.js" />
+    <Content Include="Content\Go\js.js" />
     <Content Include="Content\Site.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
