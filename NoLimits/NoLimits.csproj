@@ -92,6 +92,7 @@
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\Go\bootstrap-steps.min.css" />
     <Content Include="Content\Go\css\estilos.css" />
     <Content Include="Content\Go\imagen\11-115098_grid-icon-colorfulness-hd-png-download.png" />
     <Content Include="Content\Go\imagen\cementoAmarillo.png" />
@@ -123,6 +124,9 @@
     <Content Include="Content\Go\imagen\wafle2.png" />
     <Content Include="Content\Go\imagen\wafle3.png" />
     <Content Include="Content\Go\imagen\wafle4.png" />
+    <Content Include="Content\Go\jquery.convform.css" />
+    <Content Include="Content\Go\jquery.convform.js" />
+    <Content Include="Content\Go\js.js" />
     <Content Include="Content\Site.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
