@@ -254,6 +254,14 @@ label {
     margin-bottom: 7%;
 }
 
+.content-box {
+    width: fit-content;
+    height: 550px;
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 7%;
+}
+
 .contenedor {
     background-color: #fff;
     margin-left: 15px;
