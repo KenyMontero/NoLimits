@@ -74,5 +74,9 @@ namespace NoLimits.Controllers
         {
             return View();
         }
+        public ActionResult Vias()
+        {
+            return View();
+        }
     }
 }

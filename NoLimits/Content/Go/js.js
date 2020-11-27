@@ -17,12 +17,10 @@
         if (selectValor == '#div1') {
             $('#div1').show();
             $('#div2').hide();
-            console.log(selectValor);
         }
         else {
             $('#div1').hide();
             $('#div2').show();
-            console.log(selectValor);
         }
     });
 
@@ -68,16 +66,26 @@
         $("#DConcreto").removeClass("Mcemento2")
     });
 
-    $('.build').click(function (event) {
-        $('#select').on('change', function () {
-            var selectValor = '#' + $(this).val();
-            if (selectValor == '#div1') {
+    $('#build').click(function (event) {   
 
-            }
-            else {
-
-            }
-        });
+        console.log($('#select option:selected').val());
+        if ($('#select option:selected').val() == 'div1') {
+            $(location).attr('href', '/NoLimits/Design');
+        }
+        else {
+            $(location).attr('href', '/NoLimits/Vias');
+        }
     });
+    $('#build2').click(function (event) {
+
+        console.log($('#select option:selected').val());
+        if ($('#select option:selected').val() == 'div1') {
+            $(location).attr('href', '/NoLimits/Design');
+        }
+        else {
+            $(location).attr('href', '/NoLimits/Vias');
+        }
+    });
+
 
 })
