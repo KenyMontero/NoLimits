@@ -246,6 +246,69 @@ label {
     margin-bottom: 7%;
 }
 
+.cuadro7 {
+    width: 848px;
+    height: 787px;
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 7%;
+}
+
+.cuadro8 {
+    width: 1231px;
+    height: 930px;
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 7%;
+}
+
+.cuadro9 {
+    width: 935px;
+    height: 748px;
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 7%;
+}
+
+.cuadro10 {
+    width: 1095px;
+    height: 700px;
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 7%;
+}
+.cuadro11 {
+    width: 1133px;
+    height: 770px;
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 7%;
+}
+
+.cuadro12 {
+    width: 1170px;
+    height: 770px;
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 7%;
+}
+.cuadro13 {
+    width: 1269px;
+    height: 770px;
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 7%;
+}
+
+.cuadro14 {
+    width: 1269px;
+    height: 770px;
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 7%;
+}
+
+
 .cuadro4 {
     width: 848px;
     height: 1090px;
@@ -273,7 +336,7 @@ label {
     width: 200px;
     background-color: #00205C;
     border: 2px solid #fff !important;
-    color: #fff;
+    color: #fff !important;
     font-weight: 700;
 }
 
@@ -346,6 +409,23 @@ a {
     padding-left: 10px;
 }
 
-/*#pai div {
-    display:none;
-}*/
+#DConcreto:hover, #DCemento:hover, #DAcero:hover, #DTierra:hover, #DTuberia:hover, #DEquipos:hover, #Enchape:hover {
+    color: #fff !important;
+    background-color: #2E4F8D !important;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}

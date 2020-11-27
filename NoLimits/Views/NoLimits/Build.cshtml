@@ -17,34 +17,44 @@
                     <div class="mb-3">
                         <ul class="steps">
                             <li class="step step-active">
-                                <div class="step-content">
-                                    <span class="step-circle">1</span>
-                                    <span class="step-text">Step 1</span>
-                                </div>
+                                <a href="Build">
+                                    <div class="step-content">
+                                        <span class="step-circle">1</span>
+                                        <span class="step-text">Build</span>
+                                    </div>
+                                </a>
                             </li>
                             <li class="step">
-                                <div class="step-content">
-                                    <span class="step-circle">2</span>
-                                    <span class="step-text">Step 2</span>
-                                </div>
+                                <a href="Design">
+                                    <div class="step-content">
+                                        <span class="step-circle">2</span>
+                                        <span class="step-text">Design</span>
+                                    </div>
+                                </a>
                             </li>
                             <li class="step">
-                                <div class="step-content">
-                                    <span class="step-circle">3</span>
-                                    <span class="step-text">Step 3</span>
-                                </div>
+                                <a href="Detail">
+                                    <div class="step-content">
+                                        <span class="step-circle">3</span>
+                                        <span class="step-text">Details</span>
+                                    </div>
+                                </a>
                             </li>
                             <li class="step">
-                                <div class="step-content">
-                                    <span class="step-circle">4</span>
-                                    <span class="step-text">Step 4</span>
-                                </div>
+                                <a href="ejecution">
+                                    <div class="step-content">
+                                        <span class="step-circle">4</span>
+                                        <span class="step-text">Execution Plan</span>
+                                    </div>
+                                </a>
                             </li>
                             <li class="step">
-                                <div class="step-content">
-                                    <span class="step-circle">5</span>
-                                    <span class="step-text">Step 5</span>
-                                </div>
+                                <a href="Marketplace">
+                                    <div class="step-content">
+                                        <span class="step-circle">5</span>
+                                        <span class="step-text" style="width: 90px">Marketplace</span>
+                                    </div>
+                                </a>
                             </li>
                         </ul>
                     </div>
@@ -64,22 +74,22 @@
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 buildFormulario ">
                 <form class="form-inline">
                     <div class="form-group">
-                        <label for="inputPassword6" style="margin-right:5px; font-size:20px;">Que vamos a Construir?</label>
+                        <label for="inputPassword6" style="margin-right:5px; font-size:20px;">What are we going to build?</label>
                         <select class="form-control" id="select" name="select" style="width: 168px;">
-                            <option value="div1">Casa Familiar</option>
-                            <option value="div1">Casa de Descanso</option>
-                            <option value="div2">Vía Nacional</option>
-                            <option value="div2">Vía en mi Localidad</option>
+                            <option value="div1">Family home</option>
+                            <option value="div1">Rest home</option>
+                            <option value="div2">National road</option>
+                            <option value="div2">Locality road</option>
                         </select>
                     </div>
                 </form>
             </div>
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" id="pai">
-                @*<div class="row" id='div1'>
+                <div class="row" id='div1'>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 buildFormulario">
                         <form class="form-horizontal" action="/action_page.php">
                             <div class="form-group">
-                                <label class="control-label col-sm-3" for="pwd">Área</label>
+                                <label class="control-label col-sm-3" for="pwd">Area</label>
                                 <div class="col-sm-10">
                                     <div class="row">
                                         <div class="col-sm-10">
@@ -92,7 +102,7 @@
                                 </div>
                             </div>
                             <div class="form-group">
-                                <label class="control-label col-sm-2" for="email">Alto</label>
+                                <label class="control-label col-sm-2" for="email">High</label>
                                 <div class="col-sm-10">
                                     <div class="row">
                                         <div class="col-sm-10">
@@ -105,7 +115,7 @@
                                 </div>
                             </div>
                             <div class="form-group">
-                                <label class="control-label col-sm-2" for="pwd">Ancho</label>
+                                <label class="control-label col-sm-2" for="pwd">Width</label>
                                 <div class="col-sm-10">
                                     <div class="row">
                                         <div class="col-sm-10">
@@ -118,7 +128,7 @@
                                 </div>
                             </div>
                             <div class="form-group">
-                                <label class="control-label col-sm-2" for="email">Largo</label>
+                                <label class="control-label col-sm-2" for="email">Long</label>
                                 <div class="col-sm-10">
                                     <div class="row">
                                         <div class="col-sm-10">
@@ -131,18 +141,18 @@
                                 </div>
                             </div>
                             <div class="form-group">
-                                <label class="control-label col-sm-3" for="pwd">No. de Pisos</label>
+                                <label class="control-label col-sm-3" for="pwd">No. of floors</label>
                                 <div class="col-sm-10">
                                     <input type="text" class="form-control">
                                 </div>
                             </div>
                             <div class="form-group">
-                                <label class="control-label col-sm-2" for="pwd">Clima</label>
+                                <label class="control-label col-sm-2" for="pwd">Weather</label>
                                 <div class="col-sm-10">
                                     <select class="form-control" id="email">
-                                        <option>Caluroso</option>
-                                        <option>Equilibrado</option>
-                                        <option>Frío</option>
+                                        <option>Hot</option>
+                                        <option>Balanced</option>
+                                        <option>Cold</option>
                                     </select>
                                 </div>
                             </div>
@@ -151,37 +161,37 @@
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 buildFormulario">
                         <form class="form-horizontal" action="/action_page.php">
                             <div class="form-group">
-                                <label class="control-label col-sm-2" for="email">Acceso discapcitados</label>
+                                <label class="control-label col-sm-2" for="email">Disabled access</label>
                                 <div class="col-sm-10">
                                     <select class="form-control" id="email">
-                                        <option>Si</option>
+                                        <option>Yes</option>
                                         <option>No</option>
                                     </select>
                                 </div>
                             </div>
                             <div class="form-group">
-                                <label class="control-label col-sm-7" for="pwd">No. de Habitaciones</label>
+                                <label class="control-label col-sm-7" for="pwd">No. of Rooms</label>
                                 <div class="col-sm-10">
                                     <input type="text" class="form-control">
                                 </div>
                             </div>
                             <div class="form-group">
-                                <label class="control-label col-sm-5" for="email">No. de Pisos</label>
+                                <label class="control-label col-sm-5" for="email">No. of floors</label>
                                 <div class="col-sm-10">
                                     <input type="text" class="form-control">
                                 </div>
                             </div>
                             <div class="form-group">
-                                <label class="control-label col-sm-5" for="pwd">No. de Parqueaderos</label>
+                                <label class="control-label col-sm-5" for="pwd">No. of Parking</label>
                                 <div class="col-sm-10">
                                     <input type="text" class="form-control">
                                 </div>
                             </div>
                             <div class="form-group">
-                                <label class="control-label col-sm-2" for="pwd">Jardin</label>
+                                <label class="control-label col-sm-2" for="pwd">Garden</label>
                                 <div class="col-sm-10">
                                     <select class="form-control" id="email">
-                                        <option>Si</option>
+                                        <option>Yes</option>
                                         <option>No</option>
                                     </select>
                                 </div>
@@ -193,12 +203,12 @@
                             </div>
                         </form>
                     </div>
-                </div>*@
+                </div>
                 <div class="row" id='div2'>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 buildFormulario">
                         <form class="form-horizontal" action="/action_page.php">
                             <div class="form-group">
-                                <label class="control-label col-sm-3" for="pwd">Área</label>
+                                <label class="control-label col-sm-3" for="pwd">Area</label>
                                 <div class="col-sm-10">
                                     <div class="row">
                                         <div class="col-sm-10">
@@ -211,7 +221,7 @@
                                 </div>
                             </div>
                             <div class="form-group">
-                                <label class="control-label col-sm-2" for="email">Longitud</label>
+                                <label class="control-label col-sm-2" for="email">Length</label>
                                 <div class="col-sm-10">
                                     <div class="row">
                                         <div class="col-sm-10">
@@ -224,7 +234,7 @@
                                 </div>
                             </div>
                             <div class="form-group">
-                                <label class="control-label col-sm-2" for="pwd">Ancho</label>
+                                <label class="control-label col-sm-2" for="pwd">Width</label>
                                 <div class="col-sm-10">
                                     <div class="row">
                                         <div class="col-sm-10">
@@ -237,7 +247,7 @@
                                 </div>
                             </div>
                             <div class="form-group">
-                                <label class="control-label col-sm-2" for="email">Diamento</label>
+                                <label class="control-label col-sm-2" for="email">Diameter</label>
                                 <div class="col-sm-10">
                                     <div class="row">
                                         <div class="col-sm-10">
@@ -250,7 +260,7 @@
                                 </div>
                             </div>
                             <div class="form-group">
-                                <label class="control-label col-sm-2" for="email">Espesor</label>
+                                <label class="control-label col-sm-2" for="email">Thickness</label>
                                 <div class="col-sm-10">
                                     <div class="row">
                                         <div class="col-sm-10">
@@ -265,10 +275,10 @@
                             <div class="form-group">
                                 <label class="control-label col-sm-2" for="pwd">Clima</label>
                                 <div class="col-sm-10">
-                                    <select class="form-control" id="email">
-                                        <option>Caluroso</option>
-                                        <option>Equilibrado</option>
-                                        <option>Frío</option>
+                                    <select class="form-control" id="Weather">
+                                        <option>Hot</option>
+                                        <option>Balanced</option>
+                                        <option>Cold</option>
                                     </select>
                                 </div>
                             </div>
@@ -277,22 +287,22 @@
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 buildFormulario">
                         <form class="form-horizontal" action="/action_page.php">
                             <div class="form-group">
-                                <label class="control-label col-sm-2" for="email">Acceso discapcitados</label>
+                                <label class="control-label col-sm-2" for="email">Disabled access</label>
                                 <div class="col-sm-10">
                                     <select class="form-control" id="email">
-                                        <option>Si</option>
+                                        <option>Yes</option>
                                         <option>No</option>
                                     </select>
                                 </div>
                             </div>
                             <div class="form-group">
-                                <label class="control-label col-sm-7" for="pwd">No. de Habitaciones</label>
+                                <label class="control-label col-sm-7" for="pwd">No. of Rooms</label>
                                 <div class="col-sm-10">
                                     <input type="text" class="form-control">
                                 </div>
                             </div>
                             <div class="form-group">
-                                <label class="control-label col-sm-5" for="email">No. de Pisos</label>
+                                <label class="control-label col-sm-5" for="email">No. of floors</label>
                                 <div class="col-sm-10">
                                     <input type="text" class="form-control">
                                 </div>
@@ -301,35 +311,35 @@
                             <div class="form-group" style="margin-left:17px;">
                                 <div class="custom-control custom-checkbox checkbox-lg">
                                     <input type="checkbox" class="custom-control-input" id="checkbox-2">
-                                    <label class="custom-control-label" for="checkbox-2">Incluir Base</label>
+                                    <label class="custom-control-label" for="checkbox-2">Include Base</label>
                                 </div>
                             </div>
 
                             <div class="form-group" style="margin-left:17px;">
                                 <div class="custom-control custom-checkbox checkbox-lg">
                                     <input type="checkbox" class="custom-control-input" id="checkbox-2">
-                                    <label class="custom-control-label" for="checkbox-2">Incluir Sub-Base</label>
+                                    <label class="custom-control-label" for="checkbox-2">Include Sub-Base</label>
                                 </div>
                             </div>
 
                             <div class="form-group" style="margin-left:17px;">
                                 <div class="custom-control custom-checkbox checkbox-lg">
                                     <input type="checkbox" class="custom-control-input" id="checkbox-2">
-                                    <label class="custom-control-label" for="checkbox-2">Incluir tuberia hidrosanitaria</label>
+                                    <label class="custom-control-label" for="checkbox-2">Include hydrosanitary pipe</label>
                                 </div>
                             </div>
                             <div class="form-group">
-                                <label class="control-label col-sm-2" for="pwd">Jardin</label>
+                                <label class="control-label col-sm-2" for="pwd">Garden</label>
                                 <div class="col-sm-10">
                                     <select class="form-control" id="email">
-                                        <option>Si</option>
+                                        <option>Yes</option>
                                         <option>No</option>
                                     </select>
                                 </div>
                             </div>
                             <div class="form-group">
                                 <div class="col-sm-10 text-right">
-                                    <a href="Design" class="button2 text-center rounded" style="margin-top: 3%;">Build</a>
+                                    <a class="button2 text-center rounded build" style="margin-top: 3%;">Build</a>
                                 </div>
                             </div>
                         </form>

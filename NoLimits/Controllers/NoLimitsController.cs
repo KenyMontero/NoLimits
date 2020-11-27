@@ -37,5 +37,42 @@ namespace NoLimits.Controllers
         {
             return View();
         }
+
+        public ActionResult ejecution()
+        {
+            return View();
+        }
+        public ActionResult Seguimiento()
+        {
+            return View();
+        }
+        public ActionResult ventanda()
+        {
+            return View();
+        }
+        public ActionResult sanitario()
+        {
+            return View();
+        }
+        public ActionResult enchape()
+        {
+            return View();
+        }
+        public ActionResult cubierta()
+        {
+            return View();
+        }
+        public ActionResult polietileno()
+        {
+            return View();
+        }
+        public ActionResult icopor()
+        {
+            return View();
+        }
+        public ActionResult Gatt()
+        {
+            return View();
+        }
     }
 }

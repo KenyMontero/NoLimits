@@ -17,34 +17,44 @@
                 <div class="mb-3">
                     <ul class="steps">
                         <li class="step step-success">
-                            <div class="step-content">
-                                <span class="step-circle">1</span>
-                                <span class="step-text">Step 1</span>
-                            </div>
+                            <a href="Build">
+                                <div class="step-content">
+                                    <span class="step-circle">1</span>
+                                    <span class="step-text">Build</span>
+                                </div>
+                            </a>
                         </li>
                         <li class="step step-success">
-                            <div class="step-content">
-                                <span class="step-circle">2</span>
-                                <span class="step-text">Step 2</span>
-                            </div>
+                            <a href="Design">
+                                <div class="step-content">
+                                    <span class="step-circle">2</span>
+                                    <span class="step-text">Design</span>
+                                </div>
+                            </a>
                         </li>
                         <li class="step step-success">
-                            <div class="step-content">
-                                <span class="step-circle">3</span>
-                                <span class="step-text">Step 3</span>
-                            </div>
+                            <a href="Detail">
+                                <div class="step-content">
+                                    <span class="step-circle">3</span>
+                                    <span class="step-text">Details</span>
+                                </div>
+                            </a>
                         </li>
                         <li class="step step-success">
-                            <div class="step-content">
-                                <span class="step-circle">4</span>
-                                <span class="step-text">Step 4</span>
-                            </div>
+                            <a href="ejecution">
+                                <div class="step-content">
+                                    <span class="step-circle">4</span>
+                                    <span class="step-text">Execution Plan</span>
+                                </div>
+                            </a>
                         </li>
                         <li class="step step-active">
-                            <div class="step-content">
-                                <span class="step-circle">5</span>
-                                <span class="step-text">Step 5</span>
-                            </div>
+                            <a href="Marketplace">
+                                <div class="step-content">
+                                    <span class="step-circle">5</span>
+                                    <span class="step-text" style="width: 90px">Marketplace</span>
+                                </div>
+                            </a>
                         </li>
                     </ul>
                 </div>
@@ -83,170 +93,576 @@
                     <div class="col-lg-3">
                         <div class="row" style="margin-top: 61px;">
                             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
-                                <a href="Design.html" class="button2  Mcemento text-center rounded"
+                                <a id="DConcreto" class="button2  Mcemento text-center rounded"
                                    style="margin-top: 3%;">Concreto</a>
                             </div>
                             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
-                                <a href="Design.html" class="button2 Mcemento2 text-center rounded"
+                                <a id="DCemento" class="button2 Mcemento text-center rounded"
                                    style="margin-top: 3%;">Cemento</a>
                             </div>
                             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
-                                <a href="Design.html" class="button2 Mcemento text-center rounded"
+                                <a id="DAcero" class="button2 Mcemento text-center rounded"
                                    style="margin-top: 3%;">Acero</a>
                             </div>
                             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
-                                <a href="Design.html" class="button2 Mcemento text-center rounded"
+                                <a id="DTierra" class="button2 Mcemento text-center rounded"
                                    style="margin-top: 3%;">
                                     Mov. de Tierra
                                 </a>
                             </div>
                             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
-                                <a href="Design.html" class="button2  Mcemento text-center rounded"
+                                <a id="DTuberia" class="button2  Mcemento text-center rounded"
                                    style="margin-top: 3%;">
                                     Tuberia hidrosani.
                                 </a>
                             </div>
                             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
-                                <a href="Design.html" class="button2 Mcemento text-center rounded"
+                                <a id="DEquipos" class="button2 Mcemento text-center rounded"
                                    style="margin-top: 3%;">
                                     Equipos y Herrami.
                                 </a>
                             </div>
                             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
-                                <a href="Design.html" class="button2 Mcemento text-center rounded"
+                                <a id="Enchape" class="button2 Mcemento text-center rounded"
                                    style="margin-top: 3%;">
                                     Enchape
                                 </a>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-2">
-                        <div class="row">
-                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 d-flex justify-content-center">
-                                <img src="~/Content/Go/imagen/construrama.png" class="" width="78" height="63" alt="cemexgo">
-                            </div>
-                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                <img src="~/Content/Go/imagen/cementoBlanco.png" width="181" height="291" style="margin: 10px;"
-                                     alt="cemexgo">
-                            </div>
-                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="col-lg-9 col-md-9 col-sm-9 col-xs-9">
+                        <div class="row" id="Cemento">
+                            <div class="col-lg-3">
                                 <div class="row">
+                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 d-flex justify-content-center">
+                                        <img src="~/Content/Go/imagen/construrama.png" class="" width="78" height="63" alt="cemexgo">
+                                    </div>
                                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                        <h6 class="text-right">1,000Kgs</h6>
+                                        <img src="~/Content/Go/imagen/cementoBlanco.png" width="181" height="291" style="margin: 10px;"
+                                             alt="cemexgo">
+                                    </div>
+                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                        <div class="row" style="margin-right: 6px;">
+                                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                <h6 class="text-right">1,000Kgs</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                        <div class="row" style="margin-right: 6px;">
+                                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                <h6 class="text-right"> US $8/50Kg</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                        <div class="row" style="margin-right: 6px;">
+                                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                <hr style="margin: 2px">
+                                                <h6 class="text-right">US $160</h6>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                            <div class="col-lg-3">
                                 <div class="row">
+                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 d-flex justify-content-center">
+                                        <img src="~/Content/Go/imagen/construrama.png" class="" width="78" height="63" alt="cemexgo">
+                                    </div>
                                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                        <h6 class="text-right"> US $8/50Kg</h6>
+                                        <img src="~/Content/Go/imagen/cementoVerde.png" width="181" height="291" style="margin: 10px;"
+                                             alt="cemexgo">
+                                    </div>
+                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                        <div class="row" style="margin-right: 6px;">
+                                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                <h6 class="text-right">400Kgs</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                        <div class="row" style="margin-right: 6px;">
+                                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                <h6 class="text-right"> US $9/40Kg</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                        <div class="row" style="margin-right: 6px;">
+                                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                <hr style="margin: 2px">
+                                                <h6 class="text-right">US $90</h6>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                            <div class="col-lg-3">
                                 <div class="row">
+                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 d-flex justify-content-center">
+                                        <img src="~/Content/Go/imagen/construrama.png" class="" width="78" height="63" alt="cemexgo">
+                                    </div>
                                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                        <hr style="margin: 2px">
-                                        <h6 class="text-right">US $160</h6>
+                                        <img src="~/Content/Go/imagen/cementoAmarillo.png" width="181" height="291" style="margin: 10px;"
+                                             alt="cemexgo">
+                                    </div>
+                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                        <div class="row" style="margin-right: 6px;">
+                                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                <h6 class="text-right">20,000Kgs</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                        <div class="row" style="margin-right: 6px;">
+                                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                <h6 class="text-right"> US $7/50Kg</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                        <div class="row" style="margin-right: 6px;">
+                                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                <hr style="margin: 2px">
+                                                <h6 class="text-right">US $2,800</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="row">
+                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 d-flex justify-content-center">
+                                        <img src="~/Content/Go/imagen/construrama.png" class="" width="78" height="63" alt="cemexgo">
+                                    </div>
+                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                        <img src="~/Content/Go/imagen/cementoNaranja.png" width="181" height="291" style="margin: 10px;"
+                                             alt="cemexgo">
+                                    </div>
+                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                        <div class="row" style="margin-right: 6px;">
+                                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                <h6 class="text-right">5,000Kgs</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                        <div class="row" style="margin-right: 6px;">
+                                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                <h6 class="text-right"> US $5/50Kg</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                        <div class="row" style="margin-right: 6px;">
+                                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                <hr style="margin: 2px">
+                                                <h6 class="text-right">US $500</h6>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-lg-2">
-                        <div class="row">
-                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 d-flex justify-content-center">
-                                <img src="~/Content/Go/imagen/construrama.png" class="" width="78" height="63" alt="cemexgo">
-                            </div>
-                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                <img src="~/Content/Go/imagen/cementoVerde.png" width="181" height="291" style="margin: 10px;"
-                                     alt="cemexgo">
-                            </div>
-                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <div class="row" id="Tuberia">
+                            <div class="col-lg-3">
                                 <div class="row">
+                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 d-flex justify-content-center">
+                                        <img src="~/Content/Go/imagen/construrama.png" class="" width="78" height="63" alt="cemexgo">
+                                    </div>
                                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                        <h6 class="text-right">400Kgs</h6>
+                                        <img src="~/Content/Go/imagen/tuberia1.jpg" width="181" height="291" style="margin: 10px;"
+                                             alt="cemexgo">
+                                    </div>
+                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                        <div class="row" style="margin-right: 6px;">
+                                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                <h6 class="text-right">1,000Kgs</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                        <div class="row" style="margin-right: 6px;">
+                                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                <h6 class="text-right"> US $8/50Kg</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                        <div class="row" style="margin-right: 6px;">
+                                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                <hr style="margin: 2px">
+                                                <h6 class="text-right">US $160</h6>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                            <div class="col-lg-3">
                                 <div class="row">
+                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 d-flex justify-content-center">
+                                        <img src="~/Content/Go/imagen/construrama.png" class="" width="78" height="63" alt="cemexgo">
+                                    </div>
                                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                        <h6 class="text-right"> US $9/40Kg</h6>
+                                        <img src="~/Content/Go/imagen/tuberia2.jpg" width="181" height="291" style="margin: 10px;"
+                                             alt="cemexgo">
+                                    </div>
+                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                        <div class="row" style="margin-right: 6px;">
+                                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                <h6 class="text-right">400Kgs</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                        <div class="row" style="margin-right: 6px;">
+                                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                <h6 class="text-right"> US $9/40Kg</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                        <div class="row" style="margin-right: 6px;">
+                                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                <hr style="margin: 2px">
+                                                <h6 class="text-right">US $90</h6>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                            <div class="col-lg-3">
                                 <div class="row">
+                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 d-flex justify-content-center">
+                                        <img src="~/Content/Go/imagen/construrama.png" class="" width="78" height="63" alt="cemexgo">
+                                    </div>
                                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                        <hr style="margin: 2px">
-                                        <h6 class="text-right">US $90</h6>
+                                        <img src="~/Content/Go/imagen/tuberia3.jpg" width="181" height="291" style="margin: 10px;"
+                                             alt="cemexgo">
+                                    </div>
+                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                        <div class="row" style="margin-right: 6px;">
+                                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                <h6 class="text-right">20,000Kgs</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                        <div class="row" style="margin-right: 6px;">
+                                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                <h6 class="text-right"> US $7/50Kg</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                        <div class="row" style="margin-right: 6px;">
+                                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                <hr style="margin: 2px">
+                                                <h6 class="text-right">US $2,800</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="row">
+                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 d-flex justify-content-center">
+                                        <img src="~/Content/Go/imagen/construrama.png" class="" width="78" height="63" alt="cemexgo">
+                                    </div>
+                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                        <img src="~/Content/Go/imagen/tuberia4.jpg" width="181" height="291" style="margin: 10px;"
+                                             alt="cemexgo">
+                                    </div>
+                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                        <div class="row" style="margin-right: 6px;">
+                                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                <h6 class="text-right">5,000Kgs</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                        <div class="row" style="margin-right: 6px;">
+                                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                <h6 class="text-right"> US $5/50Kg</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                        <div class="row" style="margin-right: 6px;">
+                                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                <hr style="margin: 2px">
+                                                <h6 class="text-right">US $500</h6>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-lg-2">
-                        <div class="row">
-                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 d-flex justify-content-center">
-                                <img src="~/Content/Go/imagen/construrama.png" class="" width="78" height="63" alt="cemexgo">
-                            </div>
-                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                <img src="~/Content/Go/imagen/cementoAmarillo.png" width="181" height="291" style="margin: 10px;"
-                                     alt="cemexgo">
-                            </div>
-                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <div class="row" id="concreto">
+                            <div class="col-lg-3">
                                 <div class="row">
+                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 d-flex justify-content-center">
+                                        <img src="~/Content/Go/imagen/construrama.png" class="" width="78" height="63" alt="cemexgo">
+                                    </div>
                                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                        <h6 class="text-right">20,000Kgs</h6>
+                                        <img src="~/Content/Go/imagen/concreto1.jpg" width="181" height="291" style="margin: 10px;"
+                                             alt="cemexgo">
+                                    </div>
+                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                        <div class="row" style="margin-right: 6px;">
+                                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                <h6 class="text-right">1,000Kgs</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                        <div class="row" style="margin-right: 6px;">
+                                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                <h6 class="text-right"> US $8/50Kg</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                        <div class="row" style="margin-right: 6px;">
+                                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                <hr style="margin: 2px">
+                                                <h6 class="text-right">US $160</h6>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                            <div class="col-lg-3">
                                 <div class="row">
+                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 d-flex justify-content-center">
+                                        <img src="~/Content/Go/imagen/construrama.png" class="" width="78" height="63" alt="cemexgo">
+                                    </div>
                                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                        <h6 class="text-right"> US $7/50Kg</h6>
+                                        <img src="~/Content/Go/imagen/concreto2.jpg" width="181" height="291" style="margin: 10px;"
+                                             alt="cemexgo">
+                                    </div>
+                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                        <div class="row" style="margin-right: 6px;">
+                                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                <h6 class="text-right">400Kgs</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                        <div class="row" style="margin-right: 6px;">
+                                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                <h6 class="text-right"> US $9/40Kg</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                        <div class="row" style="margin-right: 6px;">
+                                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                <hr style="margin: 2px">
+                                                <h6 class="text-right">US $90</h6>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                            <div class="col-lg-3">
                                 <div class="row">
+                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 d-flex justify-content-center">
+                                        <img src="~/Content/Go/imagen/construrama.png" class="" width="78" height="63" alt="cemexgo">
+                                    </div>
                                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                        <hr style="margin: 2px">
-                                        <h6 class="text-right">US $2,800</h6>
+                                        <img src="~/Content/Go/imagen/concreto3.jpg" width="181" height="291" style="margin: 10px;"
+                                             alt="cemexgo">
+                                    </div>
+                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                        <div class="row" style="margin-right: 6px;">
+                                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                <h6 class="text-right">20,000Kgs</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                        <div class="row" style="margin-right: 6px;">
+                                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                <h6 class="text-right"> US $7/50Kg</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                        <div class="row" style="margin-right: 6px;">
+                                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                <hr style="margin: 2px">
+                                                <h6 class="text-right">US $2,800</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="row">
+                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 d-flex justify-content-center">
+                                        <img src="~/Content/Go/imagen/construrama.png" class="" width="78" height="63" alt="cemexgo">
+                                    </div>
+                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                        <img src="~/Content/Go/imagen/concreto4.jpg" width="181" height="291" style="margin: 10px;"
+                                             alt="cemexgo">
+                                    </div>
+                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                        <div class="row" style="margin-right: 6px;">
+                                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                <h6 class="text-right">5,000Kgs</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                        <div class="row" style="margin-right: 6px;">
+                                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                <h6 class="text-right"> US $5/50Kg</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                        <div class="row" style="margin-right: 6px;">
+                                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                <hr style="margin: 2px">
+                                                <h6 class="text-right">US $500</h6>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-lg-2">
-                        <div class="row">
-                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 d-flex justify-content-center">
-                                <img src="~/Content/Go/imagen/construrama.png" class="" width="78" height="63" alt="cemexgo">
-                            </div>
-                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                <img src="~/Content/Go/imagen/cementoNaranja.png" width="181" height="291" style="margin: 10px;"
-                                     alt="cemexgo">
-                            </div>
-                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <div class="row" id="Movi_tierra">
+                            <div class="col-lg-3">
                                 <div class="row">
+                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 d-flex justify-content-center">
+                                        <img src="~/Content/Go/imagen/construrama.png" class="" width="78" height="63" alt="cemexgo">
+                                    </div>
                                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                        <h6 class="text-right">5,000Kgs</h6>
+                                        <img src="~/Content/Go/imagen/mov1.jpg" width="181" height="291" style="margin: 10px;"
+                                             alt="cemexgo">
+                                    </div>
+                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                        <div class="row" style="margin-right: 6px;">
+                                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                <h6 class="text-right">1,000Kgs</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                        <div class="row" style="margin-right: 6px;">
+                                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                <h6 class="text-right"> US $8/50Kg</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                        <div class="row" style="margin-right: 6px;">
+                                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                <hr style="margin: 2px">
+                                                <h6 class="text-right">US $160</h6>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                            <div class="col-lg-3">
                                 <div class="row">
+                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 d-flex justify-content-center">
+                                        <img src="~/Content/Go/imagen/construrama.png" class="" width="78" height="63" alt="cemexgo">
+                                    </div>
                                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                        <h6 class="text-right"> US $5/50Kg</h6>
+                                        <img src="~/Content/Go/imagen/mov2.jpg" width="181" height="291" style="margin: 10px;"
+                                             alt="cemexgo">
+                                    </div>
+                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                        <div class="row" style="margin-right: 6px;">
+                                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                <h6 class="text-right">400Kgs</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                        <div class="row" style="margin-right: 6px;">
+                                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                <h6 class="text-right"> US $9/40Kg</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                        <div class="row" style="margin-right: 6px;">
+                                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                <hr style="margin: 2px">
+                                                <h6 class="text-right">US $90</h6>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                            <div class="col-lg-3">
                                 <div class="row">
+                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 d-flex justify-content-center">
+                                        <img src="~/Content/Go/imagen/construrama.png" class="" width="78" height="63" alt="cemexgo">
+                                    </div>
                                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                        <hr style="margin: 2px">
-                                        <h6 class="text-right">US $500</h6>
+                                        <img src="~/Content/Go/imagen/mov3.jpg" width="181" height="291" style="margin: 10px;"
+                                             alt="cemexgo">
+                                    </div>
+                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                        <div class="row" style="margin-right: 6px;">
+                                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                <h6 class="text-right">20,000Kgs</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                        <div class="row" style="margin-right: 6px;">
+                                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                <h6 class="text-right"> US $7/50Kg</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                        <div class="row" style="margin-right: 6px;">
+                                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                <hr style="margin: 2px">
+                                                <h6 class="text-right">US $2,800</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="row">
+                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 d-flex justify-content-center">
+                                        <img src="~/Content/Go/imagen/construrama.png" class="" width="78" height="63" alt="cemexgo">
+                                    </div>
+                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                        <img src="~/Content/Go/imagen/mov4.jpg" width="181" height="291" style="margin: 10px;"
+                                             alt="cemexgo">
+                                    </div>
+                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                        <div class="row" style="margin-right: 6px;">
+                                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                <h6 class="text-right">5,000Kgs</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                        <div class="row" style="margin-right: 6px;">
+                                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                <h6 class="text-right"> US $5/50Kg</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                        <div class="row" style="margin-right: 6px;">
+                                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                <hr style="margin: 2px">
+                                                <h6 class="text-right">US $500</h6>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -261,7 +677,7 @@
                 </span>
             </div>
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 d-flex justify-content-end">
-                <span class="" style="margin-right: 4%; margin-bottom: 60px; color: #00205C">
+                <span class="" style="margin-right: 4%; margin-bottom: 90px; color: #00205C">
                     El transporte de este
                     material
                     tendría un costo adicional de USD 500
