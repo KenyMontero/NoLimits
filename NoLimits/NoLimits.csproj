@@ -351,6 +351,9 @@
     <Content Include="Content\Go\imagen\tuberia3.jpg" />
     <Content Include="Content\Go\imagen\tuberia4.jpg" />
     <Content Include="Content\Go\imagen\ventana.png" />
+    <Content Include="Content\Go\imagen\via1.jpg" />
+    <Content Include="Content\Go\imagen\via2.jpg" />
+    <Content Include="Content\Go\imagen\via3.jpg" />
     <Content Include="Content\Go\imagen\wafle.png" />
     <Content Include="Content\Go\imagen\wafle2.png" />
     <Content Include="Content\Go\imagen\wafle3.png" />
@@ -480,6 +483,7 @@
     <Content Include="Views\NoLimits\polietileno.cshtml" />
     <Content Include="Views\NoLimits\icopor.cshtml" />
     <Content Include="Views\NoLimits\Gatt.cshtml" />
+    <Content Include="Views\NoLimits\Vias.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
