@@ -685,3 +685,29 @@
             </div>
         </div>
     </div>
+@section scripts{
+<script>
+
+    $(document).ready(function () {
+        let url_hash = location.hash;
+        switch (url_hash) {
+            case "#cemento":
+               
+                $("#DCemento").click();
+                break;
+            case "#concreto":
+                $("#DConcreto").click();
+                break;
+            case "#tuberia":
+                $("#DTuberia").click();
+                break;
+            case "#movientotierra":
+                $("#DTierra").click();
+                break;
+               
+        }
+
+    });
+   
+</script>    
+}
