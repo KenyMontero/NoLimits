@@ -2,211 +2,213 @@
     ViewBag.Title = "Build";
     Layout = "~/Views/Shared/_LayoutLimits.cshtml";
 }
-    <div class="content">
-        <div class="row">
-            <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 w-25 content2" style="height: 250px;">
-                <img src="~/Content/Go/imagen/Go.png" style="margin-top: 0px;" class="" height="250" alt="cemexgo">
-            </div>
-            <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7 content3" style="padding: 0px;">
-                <img src="~/Content/Go/imagen/desarrollo.jpg" width="1100" class="img-fluid" style="height: 230px;" alt="cemexgo">
+
+<div class="content">
+    <div class="row">
+        <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 w-25 content2" style="height: 250px;">
+            <img src="~/Content/Go/imagen/Go.png" style="margin-top: 0px;" class="" height="250" alt="cemexgo">
+        </div>
+        <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7 content3" style="padding: 0px;">
+            <img src="~/Content/Go/imagen/desarrollo.jpg" width="1100" class="img-fluid" style="height: 230px;" alt="cemexgo">
+        </div>
+    </div>
+    <div class="row content4" style="margin-left: 79px; margin-right: 75px;">
+        <div class="container">
+            <div class="">
+                <div class="mb-3">
+                    <ul class="steps">
+                        <li class="step step-active">
+                            <a href="Build">
+                                <div class="step-content">
+                                    <span class="step-circle">1</span>
+                                    <span class="step-text">Build</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="step">
+                            <a href="Design">
+                                <div class="step-content">
+                                    <span class="step-circle">2</span>
+                                    <span class="step-text">Design</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="step">
+                            <a href="Detail">
+                                <div class="step-content">
+                                    <span class="step-circle">3</span>
+                                    <span class="step-text">Details</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="step">
+                            <a href="ejecution">
+                                <div class="step-content">
+                                    <span class="step-circle">4</span>
+                                    <span class="step-text">Execution Plan</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="step">
+                            <a href="Marketplace">
+                                <div class="step-content">
+                                    <span class="step-circle">5</span>
+                                    <span class="step-text" style="width: 90px">Marketplace</span>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
-        <div class="row content4" style="margin-left: 79px; margin-right: 75px;">
-            <div class="container">
-                <div class="">
-                    <div class="mb-3">
-                        <ul class="steps">
-                            <li class="step step-active">
-                                <a href="Build">
-                                    <div class="step-content">
-                                        <span class="step-circle">1</span>
-                                        <span class="step-text">Build</span>
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <h1 class="text-left" style="letter-spacing: -3px; color: #00205C; font-weight: 700;">
+                Build Your Dream
+            </h1>
+        </div>
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <h2 class="text-center"
+                style="letter-spacing: -2px; color:#00205C; padding-bottom: 20px; padding-top: 20PX; font-weight: 700;">
+                let' do it!
+            </h2>
+        </div>
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 buildFormulario ">
+            <form class="form-inline">
+                <div class="form-group">
+                    <label for="inputPassword6" style="margin-right:5px; font-size:20px;">What are we going to build?</label>
+                    <select class="form-control" id="select" name="select" style="width: 168px;">
+                        <option value="div1">Family home</option>
+                        <option value="div1">Rest home</option>
+                        <option value="div2">National road</option>
+                        <option value="div2">Locality road</option>
+                    </select>
+                </div>
+            </form>
+        </div>
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" id="pai">
+            <div class="row" id='div1'>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 buildFormulario">
+                    <form class="form-horizontal" action="/action_page.php">
+                        <div class="form-group">
+                            <label class="control-label col-sm-3" for="pwd">Area</label>
+                            <div class="col-sm-10">
+                                <div class="row">
+                                    <div class="col-sm-10">
+                                        <input type="text" class="form-control">
                                     </div>
-                                </a>
-                            </li>
-                            <li class="step">
-                                <a href="Design">
-                                    <div class="step-content">
-                                        <span class="step-circle">2</span>
-                                        <span class="step-text">Design</span>
+                                    <div class="col-sm-2">
+                                        <label class="control-label col-sm-3" for="pwd">Mts<sup>2</sup></label>
                                     </div>
-                                </a>
-                            </li>
-                            <li class="step">
-                                <a href="Detail">
-                                    <div class="step-content">
-                                        <span class="step-circle">3</span>
-                                        <span class="step-text">Details</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="control-label col-sm-2" for="email">High</label>
+                            <div class="col-sm-10">
+                                <div class="row">
+                                    <div class="col-sm-10">
+                                        <input type="text" class="form-control">
                                     </div>
-                                </a>
-                            </li>
-                            <li class="step">
-                                <a href="ejecution">
-                                    <div class="step-content">
-                                        <span class="step-circle">4</span>
-                                        <span class="step-text">Execution Plan</span>
+                                    <div class="col-sm-2">
+                                        <label class="control-label col-sm-3" for="pwd">Mts</label>
                                     </div>
-                                </a>
-                            </li>
-                            <li class="step">
-                                <a href="Marketplace">
-                                    <div class="step-content">
-                                        <span class="step-circle">5</span>
-                                        <span class="step-text" style="width: 90px">Marketplace</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="control-label col-sm-2" for="pwd">Width</label>
+                            <div class="col-sm-10">
+                                <div class="row">
+                                    <div class="col-sm-10">
+                                        <input type="text" class="form-control">
                                     </div>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
+                                    <div class="col-sm-2">
+                                        <label class="control-label col-sm-3" for="pwd">Mts</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="control-label col-sm-2" for="email">Long</label>
+                            <div class="col-sm-10">
+                                <div class="row">
+                                    <div class="col-sm-10">
+                                        <input type="text" class="form-control">
+                                    </div>
+                                    <div class="col-sm-2">
+                                        <label class="control-label col-sm-3" for="pwd">Mts</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="control-label col-sm-3" for="pwd">No. of floors</label>
+                            <div class="col-sm-10">
+                                <input type="text" class="form-control">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="control-label col-sm-2" for="pwd">Weather</label>
+                            <div class="col-sm-10">
+                                <select class="form-control" id="email">
+                                    <option>Hot</option>
+                                    <option>Balanced</option>
+                                    <option>Cold</option>
+                                </select>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 buildFormulario">
+                    <form class="form-horizontal" action="/action_page.php">
+                        <div class="form-group">
+                            <label class="control-label col-sm-2" for="email">Disabled access</label>
+                            <div class="col-sm-10">
+                                <select class="form-control" id="email">
+                                    <option>Yes</option>
+                                    <option>No</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="control-label col-sm-7" for="pwd">No. of Rooms</label>
+                            <div class="col-sm-10">
+                                <input type="text" class="form-control">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="control-label col-sm-5" for="email">No. of floors</label>
+                            <div class="col-sm-10">
+                                <input type="text" class="form-control">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="control-label col-sm-5" for="pwd">No. of Parking</label>
+                            <div class="col-sm-10">
+                                <input type="text" class="form-control">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="control-label col-sm-2" for="pwd">Garden</label>
+                            <div class="col-sm-10">
+                                <select class="form-control" id="email">
+                                    <option>Yes</option>
+                                    <option>No</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-sm-10 text-right">
+                                <a href="Design" class="button2 text-center rounded" style="margin-top: 3%;">Build</a>
+                            </div>
+                        </div>
+                    </form>
                 </div>
             </div>
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                <h1 class="text-left" style="letter-spacing: -3px; color: #00205C; font-weight: 700;">
-                    Build Your Dream
-                </h1>
-            </div>
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                <h2 class="text-center"
-                    style="letter-spacing: -2px; color:#00205C; padding-bottom: 20px; padding-top: 20PX; font-weight: 700;">
-                    let' do it!
-                </h2>
-            </div>
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 buildFormulario ">
-                <form class="form-inline">
-                    <div class="form-group">
-                        <label for="inputPassword6" style="margin-right:5px; font-size:20px;">What are we going to build?</label>
-                        <select class="form-control" id="select" name="select" style="width: 168px;">
-                            <option value="div1">Family home</option>
-                            <option value="div1">Rest home</option>
-                            <option value="div2">National road</option>
-                            <option value="div2">Locality road</option>
-                        </select>
-                    </div>
-                </form>
-            </div>
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" id="pai">
-                <div class="row" id='div1'>
+            <div id='div2'>
+                <div class="row">
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 buildFormulario">
-                        <form class="form-horizontal" action="/action_page.php">
-                            <div class="form-group">
-                                <label class="control-label col-sm-3" for="pwd">Area</label>
-                                <div class="col-sm-10">
-                                    <div class="row">
-                                        <div class="col-sm-10">
-                                            <input type="text" class="form-control">
-                                        </div>
-                                        <div class="col-sm-2">
-                                            <label class="control-label col-sm-3" for="pwd">Mts<sup>2</sup></label>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="form-group">
-                                <label class="control-label col-sm-2" for="email">High</label>
-                                <div class="col-sm-10">
-                                    <div class="row">
-                                        <div class="col-sm-10">
-                                            <input type="text" class="form-control">
-                                        </div>
-                                        <div class="col-sm-2">
-                                            <label class="control-label col-sm-3" for="pwd">Mts</label>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="form-group">
-                                <label class="control-label col-sm-2" for="pwd">Width</label>
-                                <div class="col-sm-10">
-                                    <div class="row">
-                                        <div class="col-sm-10">
-                                            <input type="text" class="form-control">
-                                        </div>
-                                        <div class="col-sm-2">
-                                            <label class="control-label col-sm-3" for="pwd">Mts</label>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="form-group">
-                                <label class="control-label col-sm-2" for="email">Long</label>
-                                <div class="col-sm-10">
-                                    <div class="row">
-                                        <div class="col-sm-10">
-                                            <input type="text" class="form-control">
-                                        </div>
-                                        <div class="col-sm-2">
-                                            <label class="control-label col-sm-3" for="pwd">Mts</label>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="form-group">
-                                <label class="control-label col-sm-3" for="pwd">No. of floors</label>
-                                <div class="col-sm-10">
-                                    <input type="text" class="form-control">
-                                </div>
-                            </div>
-                            <div class="form-group">
-                                <label class="control-label col-sm-2" for="pwd">Weather</label>
-                                <div class="col-sm-10">
-                                    <select class="form-control" id="email">
-                                        <option>Hot</option>
-                                        <option>Balanced</option>
-                                        <option>Cold</option>
-                                    </select>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 buildFormulario">
-                        <form class="form-horizontal" action="/action_page.php">
-                            <div class="form-group">
-                                <label class="control-label col-sm-2" for="email">Disabled access</label>
-                                <div class="col-sm-10">
-                                    <select class="form-control" id="email">
-                                        <option>Yes</option>
-                                        <option>No</option>
-                                    </select>
-                                </div>
-                            </div>
-                            <div class="form-group">
-                                <label class="control-label col-sm-7" for="pwd">No. of Rooms</label>
-                                <div class="col-sm-10">
-                                    <input type="text" class="form-control">
-                                </div>
-                            </div>
-                            <div class="form-group">
-                                <label class="control-label col-sm-5" for="email">No. of floors</label>
-                                <div class="col-sm-10">
-                                    <input type="text" class="form-control">
-                                </div>
-                            </div>
-                            <div class="form-group">
-                                <label class="control-label col-sm-5" for="pwd">No. of Parking</label>
-                                <div class="col-sm-10">
-                                    <input type="text" class="form-control">
-                                </div>
-                            </div>
-                            <div class="form-group">
-                                <label class="control-label col-sm-2" for="pwd">Garden</label>
-                                <div class="col-sm-10">
-                                    <select class="form-control" id="email">
-                                        <option>Yes</option>
-                                        <option>No</option>
-                                    </select>
-                                </div>
-                            </div>
-                            <div class="form-group">
-                                <div class="col-sm-10 text-right">
-                                    <span class="button2 text-center rounded " id="build" style="margin-top: 3%;">Build</span>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-                <div class="row" id='div2'>
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 buildFormulario">
-                        <form class="form-horizontal" action="/action_page.php">
+                        <form class="form-horizontal">
                             <div class="form-group">
                                 <label class="control-label col-sm-3" for="pwd">Area</label>
                                 <div class="col-sm-10">
@@ -273,7 +275,7 @@
                                 </div>
                             </div>
                             <div class="form-group">
-                                <label class="control-label col-sm-2" for="pwd">Clima</label>
+                                <label class="control-label col-sm-2" for="pwd">Weather</label>
                                 <div class="col-sm-10">
                                     <select class="form-control" id="Weather">
                                         <option>Hot</option>
@@ -282,10 +284,15 @@
                                     </select>
                                 </div>
                             </div>
+
+                            <div class="form-group">
+                                <label class="control-label col-sm-6" for="pwd">Localize (Google street)</label>
+                                <div id="map" style="height:500px; width:500px"></div>
+                            </div>
                         </form>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 buildFormulario">
-                        <form class="form-horizontal" action="/action_page.php">
+                        <form class="form-horizontal">
                             <div class="form-group">
                                 <label class="control-label col-sm-2" for="email">Disabled access</label>
                                 <div class="col-sm-10">
@@ -338,13 +345,46 @@
                                 </div>
                             </div>
                             <div class="form-group">
+                                <label class="control-label col-sm-6" for="pwd">Google street</label>
+                                <div id="pano" style="height:500px; width:500px"></div>
+                            </div>
+                            <div class="form-group">
                                 <div class="col-sm-10 text-right">
-                                    <span class="button2 text-center rounded" id="build2" style="margin-top: 3%;">Build</span>
+                                    <a class="button2 text-center rounded build" style="margin-top: 3%;">Build</a>
                                 </div>
                             </div>
                         </form>
                     </div>
                 </div>
+               
             </div>
         </div>
     </div>
+</div>
+@section scripts{
+    
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAkTFCgB2mumLkeDArvRjYKudDTdOK-YPA&callback=initialize&libraries=&v=weekly"defer></script>
+    <script>
+        function initialize() {
+            const fenway = { lat: 42.345573, lng: -71.098326 };
+            const map = new google.maps.Map(document.getElementById("map"), {
+                center: fenway,
+                zoom: 14,
+            });
+            const panorama = new google.maps.StreetViewPanorama(
+                document.getElementById("pano"),
+                {
+                    position: fenway,
+                    pov: {
+                        heading: 34,
+                        pitch: 10,
+                    },
+                }
+            );
+            map.setStreetView(panorama);
+        }
+
+     
+    </script>
+}

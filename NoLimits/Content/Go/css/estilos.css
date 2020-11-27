@@ -317,6 +317,14 @@ label {
     margin-bottom: 7%;
 }
 
+.content-box {
+    width: fit-content;
+    height: 550px;
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 7%;
+}
+
 .contenedor {
     background-color: #fff;
     margin-left: 15px;
@@ -429,3 +437,16 @@ td, th {
 tr:nth-child(even) {
     background-color: #dddddd;
 }
+
+#map,
+#pano {
+    float: left;
+    overflow: auto !important;
+}
+
+.map-content {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
