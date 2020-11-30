@@ -70,20 +70,20 @@
 
         console.log($('#select option:selected').val());
         if ($('#select option:selected').val() == 'div1') {
-            $(location).attr('href', '/NoLimits/Design');
+            $(location).attr('href', '/NoLimits/NoLimits/Design');
         }
         else {
-            $(location).attr('href', '/NoLimits/Vias');
+            $(location).attr('href', '/NoLimits/NoLimits/Vias');
         }
     });
     $('#build2').click(function (event) {
 
         console.log($('#select option:selected').val());
         if ($('#select option:selected').val() == 'div1') {
-            $(location).attr('href', '/NoLimits/Design');
+            $(location).attr('href', '/NoLimits/NoLimits/Design');
         }
         else {
-            $(location).attr('href', '/NoLimits/Vias');
+            $(location).attr('href', '/NoLimits/NoLimits/Vias');
         }
     });
 
